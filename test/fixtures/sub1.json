@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "sub1a": {
+            "$ref": "sub1a.json"
+        }
+    }
+}

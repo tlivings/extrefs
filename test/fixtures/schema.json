@@ -1,0 +1,12 @@
+{
+    "id": "root",
+    "type": "object",
+    "properties": {
+        "sub1": {
+            "$ref": "sub1.json"
+        },
+        "sub2": {
+            "$ref": "sub2.json"
+        }
+    }
+}
