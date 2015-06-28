@@ -17,7 +17,6 @@ Example:
 ```json
 //schema.json
 {
-    "id": "root",
     "type": "object",
     "properties": {
         "example": {
@@ -50,7 +49,6 @@ will be replaced.
 ```json
 //schema.json
 {
-    "id": "root",
     "type": "object",
     "properties": {
         "example": {
@@ -69,7 +67,7 @@ will be replaced.
     }
 }
 
-////http://example.org/example.json
+//http://example.org/example.json
 {
     "example.json": {
         "type": "string"
