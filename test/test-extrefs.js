@@ -8,7 +8,7 @@ import Http from 'http';
 Test('test', function (t) {
 
     t.test('plan', function (t) {
-        t.plan(2);
+        t.plan(3);
 
         let server = Http.createServer((request, response) => {
             response.writeHead(200, {
@@ -38,6 +38,7 @@ Test('test', function (t) {
             Extrefs(schema, { basedir: Path.resolve(__dirname, 'fixtures') }).resolve((error, schemas) => {
                 t.ok(!error, 'no error');
                 t.equal(Object.keys(schemas).length, 5, 'has five subschemas.');
+                t.equal(schemas['http://127.0.0.1:3000/sub2a.json'].properties.sub3.$ref, 'http://127.0.0.1:3000/sub3.json', 'replaced remote-local $ref with fully qualified.');
             });
         }).unref();
     });
