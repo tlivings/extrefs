@@ -37,7 +37,7 @@ Test('test', function (t) {
 
             Extrefs(schema, { basedir: Path.resolve(__dirname, 'fixtures') }).resolve((error, schemas) => {
                 t.ok(!error, 'no error');
-                t.equal(Object.keys(schemas).length, 5, 'has two subschemas.');
+                t.equal(Object.keys(schemas).length, 5, 'has five subschemas.');
             });
         }).unref();
     });
