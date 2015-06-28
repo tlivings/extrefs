@@ -18,7 +18,6 @@
   },
   "bugs": "http://github.com/tlivings/extrefs/issues",
   "dependencies": {
-    "async": "^1.2.1",
     "babel-runtime": "^4.3.0",
     "caller": "^1.0.0"
 },
