@@ -44,7 +44,7 @@ Will result in an object containing:
 Which can then be used in conjunction with a schema validator.
 
 For remote references (i.e. urls), resulting schemas that contain local external references (i.e just a filename)
-will be replaced.
+will be replaced with a fully qualified URL to the schema for proper resolution.
 
 ```json
 //schema.json
