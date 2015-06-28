@@ -5,9 +5,9 @@ Resolves references in json-schema to an object containing schemas keyed by refe
 ### usage
 
 ```javascript
-import Extrefs from 'extrefs';
+import Resolver from 'extrefs';
 
-Extrefs(schema).resolve((error, schemas) => {
+Resolver(schema).resolve((error, schemas) => {
     //plugin into validator
 });
 ```
@@ -93,6 +93,6 @@ Will result in:
 }
 ```
 
-### extrefs(schema, options, callback) options
+### resolve(schema, options) options
 
 * `basedir` - base directory to search local file references for.
