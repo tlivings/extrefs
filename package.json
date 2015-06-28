@@ -1,7 +1,16 @@
 {
   "name": "extrefs",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Resolve references in json-schema",
+  "keywords": [
+      "json-schema",
+      "json",
+      "schema",
+      "ref",
+      "$ref",
+      "reference",
+      "resolver"
+  ],
+  "version": "1.0.0",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "repository": {
     "type": "git",
@@ -12,9 +21,7 @@
     "async": "^1.2.1",
     "babel-runtime": "^4.3.0",
     "caller": "^1.0.0"
-  },
-  "peerDependencies": {},
-  "optionalDependencies": {},
+},
   "devDependencies": {
     "tape": "^3.5.0",
     "babel": "^4.3.0",
