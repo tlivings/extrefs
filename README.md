@@ -67,11 +67,9 @@ will be replaced with a fully qualified URL to the schema for proper resolution.
     }
 }
 
-//http://example.org/example.json
+//http://example.org/more.json
 {
-    "example.json": {
-        "type": "string"
-    }
+    "type": "string"
 }
 ```
 
