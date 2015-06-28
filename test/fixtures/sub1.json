@@ -6,6 +6,14 @@
         },
         "sub1a": {
             "$ref": "sub1a.json"
+        },
+        "sub1b": {
+            "$ref": "#/defs/sub1b"
+        }
+    },
+    "defs": {
+        "sub1b": {
+            "message": "string"
         }
     }
 }
