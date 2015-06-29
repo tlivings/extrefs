@@ -2,13 +2,13 @@
   "name": "extrefs",
   "description": "Resolve references in json-schema",
   "keywords": [
-      "json-schema",
-      "json",
-      "schema",
-      "ref",
-      "$ref",
-      "reference",
-      "resolver"
+    "json-schema",
+    "json",
+    "schema",
+    "ref",
+    "$ref",
+    "reference",
+    "resolver"
   ],
   "version": "1.0.1",
   "author": "Trevor Livingston <tlivings@gmail.com>",
@@ -19,8 +19,9 @@
   "bugs": "http://github.com/tlivings/extrefs/issues",
   "dependencies": {
     "babel-runtime": "^4.3.0",
-    "caller": "^1.0.0"
-},
+    "caller": "^1.0.0",
+    "wreck": "^5.6.0"
+  },
   "devDependencies": {
     "tape": "^3.5.0",
     "babel": "^4.3.0",
