@@ -36,7 +36,6 @@ Test('test', function (t) {
             let schema = require(Path.resolve('test/fixtures/schema'));
 
             Extrefs(schema, { basedir: Path.resolve(__dirname, 'fixtures') }).resolve((error, schemas) => {
-                error && console.log(error.stack);
                 t.ok(!error, 'no error');
                 t.equal(Object.keys(schemas).length, 5, 'has five subschemas.');
                 t.equal(schemas['http://127.0.0.1:3000/sub2a.json'].properties.sub3.$ref, 'http://127.0.0.1:3000/sub3.json', 'replaced remote-local $ref with fully qualified.');
