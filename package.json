@@ -33,5 +33,6 @@
     "test": "npm run compile && babel-node test/harness.js test/**/*.js",
     "compile": "babel --optional selfContained --modules common --out-dir dist lib/**.js"
   },
-  "main": "./dist/lib/index"
+  "main": "./dist/lib/index",
+  "license": "MIT"
 }
